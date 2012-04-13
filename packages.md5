@@ -1,0 +1,15 @@
+#Category:main - the main binary packages needed to run enigma
+lgm 3b76ba33dd2d3a321bdd6a501c4137dd lgm16b4.jar http://dl.dropbox.com/u/9975312/enigma-dep/lgm16b4.jar none
+main b5f6de84285a0795ad74f03c32bccafd plugins/enigma.jar http://dl.dropbox.com/u/9975312/enigma-dep/enigma.jar jnaJar,lgm
+jnaJar d3ba41fcad5df53da1fe12fc772bb8b6 plugins/shared/jna.jar http://dl.dropbox.com/u/9975312/enigma-dep/jna.jar none
+alure 3dc81094e541729018102688a2a92eb7 ENIGMAsystem/additional/alure.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/alure.epackage none
+
+#Category:examples
+hit_the_ball bbc69c20a4e5d71025e96148b8c83c89 examples/hit_the_ball.gmk http://dl.dropbox.com/u/5072558/EnigmaUpdater/hit_the_ball.gmk none
+
+#Category:sdks
+androidSDK-darwin 387fed6cbdbd89958778c0395be7ce27 SDKs/androidSDK-darwin.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/android-ndk-r7b.epackage none
+androidSDK-win32 c42b0c9c14428397337421d5e4999380 SDKs/androidSDK-win32.epackage http://dl.google.com/android/ndk/android-ndk-r7b-windows.zip none
+
+#Category:extensions
+39dylib 8ed6d2a7b8ce1b9be377b8c3777cbed6 ENIGMAsystem/SHELL/Universal_System/Extensions/39dylib.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/39dylib.epackage none
