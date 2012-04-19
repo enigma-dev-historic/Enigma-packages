@@ -1,14 +1,19 @@
 #Category:main - the main binary packages needed to run enigma
-lgm 3b76ba33dd2d3a321bdd6a501c4137dd lgm16b4.jar http://dl.dropbox.com/u/9975312/enigma-dep/lgm16b4.jar none
+lgm 7a744163834d0df6544d8e50479f95e2 lgm16b4.jar http://dl.dropbox.com/u/9975312/enigma-dep/lgm16b4.jar none
 main b5f6de84285a0795ad74f03c32bccafd plugins/enigma.jar http://dl.dropbox.com/u/9975312/enigma-dep/enigma.jar jnaJar,lgm
 jnaJar d3ba41fcad5df53da1fe12fc772bb8b6 plugins/shared/jna.jar http://dl.dropbox.com/u/9975312/enigma-dep/jna.jar none
-alure 3dc81094e541729018102688a2a92eb7 ENIGMAsystem/additional/alure.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/alure.epackage none
+
 mac bb825b6d5d7770bba22c86529e6dea82 MacOS/build/Release/EnigmaXcode.app/Contents/Resources/English.lproj/MainMenu.nib http://dl.dropbox.com/u/5072558/EnigmaUpdater/MainMenu.nib alure,main
+
 win.bat 9fdb86607d1b510c63875bb3257e5a34 run.bat http://dl.dropbox.com/u/5072558/EnigmaUpdater/run.bat main
-winbash 87524cc1c027ea62c38951b4b4e9d2ab windowsBash.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/windowsBash.epackage none
+winbash 87524cc1c027ea62c38951b4b4e9d2ab windowsBash.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/windowsBash.epackage none,zlib,ffi
+
+alure 3dc81094e541729018102688a2a92eb7 ENIGMAsystem/additional/alure.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/alure.epackage none
+zlib 076504649292013e4376b66daa7bd3d0 ENIGMAsystem/additional/zlib.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/zlib.epackage none
+ffi 84b54e594d6a0035571e3e689f8066d2 ENIGMAsystem/additional/ffi.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/ffi.epackage none
 
 #Category:examples
-hit_the_ball bbc69c20a4e5d71025e96148b8c83c89 examples/hit_the_ball.gmk http://dl.dropbox.com/u/5072558/EnigmaUpdater/hit_the_ball.gmk none
+catch_the_clown 3601e3a3ad64e1705ac439d00472a5a5 examples/catch_the_clown.gmk http://dl.dropbox.com/u/5072558/EnigmaUpdater/Catch_the_Clown.gmk none
 
 #Category:sdks
 androidSDK-darwin 387fed6cbdbd89958778c0395be7ce27 SDKs/androidSDK-darwin.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/android-ndk-r7b.epackage none
