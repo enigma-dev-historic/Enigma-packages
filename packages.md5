@@ -1,9 +1,9 @@
 #Category:main - the main binary packages needed to run enigma
-lgm 7a744163834d0df6544d8e50479f95e2 lgm16b4.jar http://dl.dropbox.com/u/9975312/enigma-dep/lgm16b4.jar none
-main b5f6de84285a0795ad74f03c32bccafd plugins/enigma.jar http://dl.dropbox.com/u/9975312/enigma-dep/enigma.jar jnaJar,lgm
+lgm 037016b6b82dd86d407b8dc694ca8db4 lgm16b4.jar http://dl.dropbox.com/u/9975312/enigma-dep/lgm16b4.jar none
+main c32e5f9584726d1694cc7b640c60d6a5 plugins/enigma.jar https://dl.dropbox.com/u/5072558/EnigmaUpdater/enigma.jar jnaJar,lgm
 jnaJar d3ba41fcad5df53da1fe12fc772bb8b6 plugins/shared/jna.jar http://dl.dropbox.com/u/9975312/enigma-dep/jna.jar none
 
-mac bb825b6d5d7770bba22c86529e6dea82 MacOS/build/Release/EnigmaXcode.app/Contents/Resources/English.lproj/MainMenu.nib http://dl.dropbox.com/u/5072558/EnigmaUpdater/MainMenu.nib alure,main
+mac 318a525cca319f82a3f118de66884802 MacOS/build/Release/EnigmaXcode.app/Contents/Resources/English.lproj/MainMenu.nib http://dl.dropbox.com/u/5072558/EnigmaUpdater/MainMenu.nib alure,main
 
 win.bat 9fdb86607d1b510c63875bb3257e5a34 run.bat http://dl.dropbox.com/u/5072558/EnigmaUpdater/run.bat main
 winbash 87524cc1c027ea62c38951b4b4e9d2ab windowsBash.epackage http://dl.dropbox.com/u/5072558/EnigmaUpdater/windowsBash.epackage none,zlib,ffi
